@@ -1,0 +1,28 @@
+.face-snap-card {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    -webkit-box-shadow: 3px 3px 10px 1px #585858; 
+    box-shadow: 3px 3px 10px 1px #585858;
+    img {
+      width: 75%;
+      margin: 0 auto;
+    }
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .snapped {
+    background-color: rgba(lightgreen, 0.4);
+    color: darkgreen;
+    button {
+      box-shadow: lightgreen 3px 3px 7px;
+      color: darkgreen;
+      &:active {
+        box-shadow: lightgreen 0 0 5px;
+      }
+    }
+  }
